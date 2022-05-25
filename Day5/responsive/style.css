@@ -1,0 +1,47 @@
+/* https://www.w3schools.com/html/html_images_background.asp */
+body{
+    background-image: url('./images/bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* margin: 0 5%; */
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+}
+
+.nav_link{
+    text-decoration:none;
+    color: #fff;
+    font-size: 15px;
+}
+
+nav .nav_menu_icon{
+    display: none;
+}
+
+
+.brand_img{
+    flex: 1;
+    margin: auto;
+}
+
+.brand_img img{
+    width: 60px;
+    height: 60px;
+}
+
+.nav_items{
+    flex: 2;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
