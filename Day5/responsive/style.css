@@ -45,3 +45,80 @@ nav .nav_menu_icon{
     justify-content: space-between;
     align-items: center;
 }
+
+.nav_button{
+    background-color:#E03B8B;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    flex: 1;
+}
+
+.col{
+    display: flex;
+    flex: 0.5;
+}
+
+.google-play-img{
+    height: 80px;
+}
+
+.col-1{
+    flex-direction: column;
+    /* xaxis direction */
+    align-items: flex-start;
+    /* yaxis dorection */
+    justify-content: center;
+    color: #fff;
+}
+
+.col-1 p{
+font-size: 25pz;
+}
+
+.col-1 h1{
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.col-2 img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 80%;
+}
+@media screen and (max-width:1230px) {
+    .col-2 img{
+        height: 60%;
+    }
+    nav .nav_items{
+        display: none;
+    }
+    nav .nav_menu_icon{
+        display: block;
+        margin: auto;
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .col-2 img{
+       display: none;
+    }
+    .google-play-img{
+        height: 50px;
+    }
+   
+    
+}
