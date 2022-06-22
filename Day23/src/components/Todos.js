@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useContext } from "react";
 import { ListGroup, ListGroupItem } from "reactstrap";
 
 const Todos = ({todos,handleDelete}) => {
-  console.log(handleDelete,"++++")
+
+  useEffect(()=>{
+    return () => {
+      alert('ss')
+      localStorage.clear();
+    }
+    
+  },[])
   return (
     <div>
       <ListGroup>
