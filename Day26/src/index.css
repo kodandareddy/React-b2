@@ -1,0 +1,17 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+h1{
+  display:'block'
+}
+
+
+
+button{
+  margin-left:10px
+}
